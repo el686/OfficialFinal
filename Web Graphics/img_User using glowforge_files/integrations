@@ -1,0 +1,33 @@
+(function(FS) {
+  var session = FS.getCurrentSession(), sessionUrl = FS.getCurrentSessionURL();
+  function retryWithBackoff(condition, callback, maxWait, failureMsg, timeoutCallback) {
+    var totalTimeExpired = 0;
+    var wait = 64;
+    var resultFn = function() {
+      if (condition()) {
+        callback();
+        return;
+      }
+      wait = Math.min(wait * 2, 1024);
+      if (totalTimeExpired > maxWait) {
+        FS.log('warn', failureMsg);
+        !!timeoutCallback && timeoutCallback(failureMsg);
+        return;
+      }
+      totalTimeExpired += wait
+      setTimeout(resultFn, wait);
+    };
+    return resultFn;
+  }
+  function loadSession(key) {
+	var lastSession = window['localStorage'].getItem(key);
+    if (!lastSession) {
+      lastSession = FS._cookies()[key];
+    }
+    return lastSession
+  }
+  function saveSession(key, session) {
+    window['localStorage'].setItem(key, session);
+  }
+
+})(window['_fs_namespace'] ? window[window['_fs_namespace']] : window['FS'])
