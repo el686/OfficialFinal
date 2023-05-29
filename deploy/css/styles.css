@@ -380,8 +380,23 @@ textarea {
     hero
 ============= */
 #hero {
-  background-image: url("../img/1hero/hero.jpg");
+  background-image: url("../img/1hero/hero.jpeg");
   background-size: cover;
   background-position: center;
-  height: 65vh;
+  height: 45vh;
+}
+@media (min-width: 1024px) {
+  #hero {
+    height: 75vh;
+  }
+}
+@media (min-width: 1200px) {
+  #hero {
+    height: 110vh;
+  }
+}
+@media (min-width: 1440px) {
+  #hero {
+    height: 140vh;
+  }
 }
