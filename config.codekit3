@@ -55,12 +55,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/1hero\/none.jpg" : {
+    "\/deploy\/img\/2new\/gradient.jpeg" : {
       "ft" : 16384,
-      "iS" : 49244,
+      "iS" : 339961,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/1hero\/none.jpg",
+      "oAP" : "\/deploy\/img\/2new\/gradient.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -68,12 +68,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/2new\/gradient.jpg" : {
+    "\/deploy\/img\/2new\/mgradient.jpg" : {
       "ft" : 16384,
-      "iS" : 37367,
+      "iS" : 57731,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/2new\/gradient.jpg",
+      "oAP" : "\/deploy\/img\/2new\/mgradient.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
