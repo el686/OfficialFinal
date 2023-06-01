@@ -10,7 +10,17 @@
     margin-top: auto;
     margin-bottom: auto;
     height: 40vh;
-
+    .resize-new{
+        width: 360px;
+    
+        @include md {
+            width: 550px
+        }
+    
+        @include xl {
+            width: 1440px
+        }
+    } 
     @include lg {
         height: 120vh;
     }

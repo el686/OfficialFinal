@@ -397,6 +397,20 @@ ul li {
   }
 }
 
+.resize-new {
+  width: 360px;
+}
+@media (min-width: 768px) {
+  .resize-new {
+    width: 550px;
+  }
+}
+@media (min-width: 1200px) {
+  .resize-new {
+    width: 1440px;
+  }
+}
+
 .resize-demo {
   width: 720px;
 }
@@ -590,6 +604,19 @@ header nav {
   margin-top: auto;
   margin-bottom: auto;
   height: 40vh;
+}
+#_2new .resize-new {
+  width: 360px;
+}
+@media (min-width: 768px) {
+  #_2new .resize-new {
+    width: 550px;
+  }
+}
+@media (min-width: 1200px) {
+  #_2new .resize-new {
+    width: 1440px;
+  }
 }
 @media (min-width: 1024px) {
   #_2new {

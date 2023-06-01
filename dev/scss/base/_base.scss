@@ -41,7 +41,7 @@ ul{
 }
 
 
-// new
+// hero
 .resize-hero{
     width: 360px;
 
@@ -54,6 +54,18 @@ ul{
     }
 } 
 
+// new
+.resize-new{
+    width: 360px;
+
+    @include md {
+        width: 550px
+    }
+
+    @include xl {
+        width: 1440px
+    }
+} 
 // demo
 
 .resize-demo{
