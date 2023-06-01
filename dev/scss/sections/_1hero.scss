@@ -17,6 +17,7 @@
                     color: var(--greenDark);
                     font-size: rem-calc(34);
                     text-align: center;
+                    margin-bottom: 24px;
     
                     @include md{
                         font-size: rem-calc(50);
@@ -39,6 +40,7 @@
                 text-align: center;
                 font-weight: 600;
                 margin-top: 16px;
+                margin-bottom: 28px;
 
                 @include md{
                     font-size: rem-calc(21);

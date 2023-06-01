@@ -30,6 +30,14 @@
       "oAP" : "\/Assets\/In-class-S23.fig",
       "oF" : 0
     },
+    "\/deploy\/checkout.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 0
+    },
     "\/deploy\/checkout1.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -79,12 +87,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/2new\/gradient.jpeg" : {
+    "\/deploy\/img\/2new\/gradient1.jpeg" : {
       "ft" : 16384,
-      "iS" : 339961,
+      "iS" : 85771,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/2new\/gradient.jpg",
+      "oAP" : "\/deploy\/img\/2new\/gradient1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -92,25 +100,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/2new\/Group50.jpg" : {
+    "\/deploy\/img\/2new\/gradient2.jpeg" : {
       "ft" : 16384,
-      "iS" : 57731,
+      "iS" : 146185,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/2new\/Group50.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/2new\/mgradient.jpg" : {
-      "ft" : 16384,
-      "iS" : 57731,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/2new\/mgradient.jpg",
+      "oAP" : "\/deploy\/img\/2new\/gradient2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

@@ -368,7 +368,6 @@ ul li {
 .resize-logo {
   width: 110px;
 }
-
 .resize-header {
   width: 24px;
 }
@@ -397,26 +396,27 @@ ul li {
   }
 }
 
-.resize-new {
-  width: 360px;
+.resize-demo {
+  width: 358px;
 }
 @media (min-width: 768px) {
-  .resize-new {
+  .resize-demo {
     width: 550px;
   }
 }
 @media (min-width: 1200px) {
-  .resize-new {
-    width: 1440px;
+  .resize-demo {
+    width: 750px;
   }
 }
 
-.resize-demo {
-  width: 720px;
-}
-
 .resize-feature {
-  width: 100px;
+  width: 90px;
+}
+@media (min-width: 1200px) {
+  .resize-feature {
+    width: 103px;
+  }
 }
 
 .resize-people {
@@ -477,7 +477,7 @@ a {
 header {
   display: grid;
   grid-template-columns: 20% auto;
-  grid-template-areas: "checkoutS survival" "nav nav";
+  grid-template-areas: "header header" "nav nav";
   width: 100%;
   background-color: white;
   top: 0;
@@ -491,10 +491,10 @@ header {
   }
 }
 header #burger-container {
-  grid-area: survival;
+  grid-area: header;
   padding: 16px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-startx;
   align-items: center;
 }
 header #burger-container button {
@@ -505,7 +505,7 @@ header #burger-container button {
 header #burger-container button i {
   font-size: 1.875rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   header #burger-container {
     display: none;
   }
@@ -519,12 +519,23 @@ header #checkout-container {
 }
 header #checkout-container button {
   border: none;
-  background-color: var(--teal);
-  font-weight: 700;
-  font-size: 1.5rem;
-  border-radius: 23px;
-  color: white;
-  padding: 10px 15px;
+  background-color: transparent;
+  color: black;
+}
+header #checkout-container button i {
+  font-size: 1.875rem;
+}
+@media (min-width: 1200px) {
+  header #checkout-container button {
+    border: none;
+    background-color: var(--teal);
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-radius: 23px;
+    color: white;
+    padding: 16px 16px;
+    border-radius: 10px;
+  }
 }
 header nav {
   grid-area: nav;
@@ -556,6 +567,7 @@ header nav {
   color: var(--greenDark);
   font-size: 2.125rem;
   text-align: center;
+  margin-bottom: 24px;
 }
 @media (min-width: 768px) {
   #_1hero > div #_1hero-top h1 {
@@ -576,6 +588,7 @@ header nav {
   text-align: center;
   font-weight: 600;
   margin-top: 16px;
+  margin-bottom: 28px;
 }
 @media (min-width: 768px) {
   #_1hero #_1hero-bottom h2 {
@@ -598,29 +611,16 @@ header nav {
    2new
 ============= */
 #_2new {
-  background-image: url("../img/2new/Group50.jpg");
+  background-image: url("../img/2new/gradient2.jpeg");
   background-size: cover;
   background-position: center;
   margin-top: auto;
   margin-bottom: auto;
   height: 40vh;
 }
-#_2new .resize-new {
-  width: 360px;
-}
-@media (min-width: 768px) {
-  #_2new .resize-new {
-    width: 550px;
-  }
-}
 @media (min-width: 1024px) {
-  #_2new .resize-new {
-    width: 1000px;
-  }
-}
-@media (min-width: 1200px) {
-  #_2new .resize-new {
-    width: 1440px;
+  #_2new {
+    background-image: url("../img/2new/gradient1.jpeg");
   }
 }
 #_2new > div {

@@ -5,8 +5,9 @@ header{
     display: grid;
     grid-template-columns: 20% auto;
     grid-template-areas: 
-    "checkoutS survival"
+    "header header"
     "nav nav";
+
     width: 100%;
     background-color: white;
     top: 0;
@@ -20,6 +21,27 @@ header{
     }
 
 #burger-container{
+    grid-area: header;
+    padding: 16px;
+    display: flex;
+    justify-content: flex-startx;
+    align-items: center;
+
+    button{
+        border: none;
+        background-color: transparent;
+        color: black;
+        i{
+            font-size: rem-calc(30);
+        }
+    }
+
+    @include lg{
+        display: none;
+    }
+}
+
+#checkout-container{
     grid-area: survival;
     padding: 16px;
     display: flex;
@@ -34,27 +56,24 @@ header{
             font-size: rem-calc(30);
         }
     }
-
-    @include md{
-        display: none;
-    }
-}
-
-#checkout-container{
-    grid-area: survival;
-    padding: 16px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    // grid-area: survival;
+    // padding: 16px;
+    // display: flex;
+    // justify-content: flex-end;
+    // align-items: center;
 
     button{
-        border: none;
-        background-color: var(--teal);
-        font-weight: 700;
-        font-size: rem-calc(24);
-        border-radius: 23px;
-        color: white;
-        padding: 10px 15px;
+        @include xl {
+            border: none;
+            background-color: var(--teal);
+            font-weight: 700;
+            font-size: rem-calc(24);
+            border-radius: 23px;
+            color: white;
+            padding: 16px 16px;
+            border-radius: 10px;
+        }
+
     }
 }
 

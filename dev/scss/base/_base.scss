@@ -26,6 +26,8 @@ ul{
 
 .resize-logo{
     width: 110px;
+
+    @include xl 
 }
 
 .resize-header{
@@ -55,27 +57,29 @@ ul{
 } 
 
 // new
-.resize-new{
-    width: 360px;
+
+// demo
+
+.resize-demo{
+    width: 358px;
 
     @include md {
         width: 550px
     }
 
     @include xl {
-        width: 1440px
+        width: 750px
     }
-} 
-// demo
-
-.resize-demo{
-    width:720px
+    
 }
 
 // feature
 
 .resize-feature{
-    width: 100px;
+    width: 90px;
+    @include xl {
+        width: 103px
+    }
 }
 // discover
 .resize-people{
