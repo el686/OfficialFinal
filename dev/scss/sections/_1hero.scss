@@ -3,18 +3,6 @@
 ============= */
 
 #_1hero{
-        background-image: url("../img/1hero/hero.jpeg");
-        background-size: cover;
-        background-position: center;
-        height: vh;
-    
-        @include lg{
-            height: 70vh;
-        }
-    
-        @include xxl{
-            height: 75vh;
-        }
 
         display: grid;
         grid-template-columns: 16px auto 16px;

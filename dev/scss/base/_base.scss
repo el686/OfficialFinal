@@ -18,3 +18,47 @@ ul{
         padding-top: 0px;
     }
 }
+
+.resize-logo{
+    width: 110px;
+}
+
+.resize-header{
+    width: 24px;
+
+    @include md {
+        width: 38px
+    }
+
+    @include xl {
+        width: 40px
+    }
+}
+
+.resize-hero{
+    width: 110px;
+} 
+
+.resize-feature{
+    width: 100px;
+}
+
+.resize-people{
+    width: 144px
+}
+
+.resize-demo{
+    width:720px
+}
+
+.resize-discover{
+    width:804px
+}
+
+.resize-footer{
+    width:46px
+}
+
+.resize-find{
+    width:322px
+}

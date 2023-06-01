@@ -361,6 +361,52 @@ ul li {
   }
 }
 
+.resize-logo {
+  width: 110px;
+}
+
+.resize-header {
+  width: 24px;
+}
+@media (min-width: 768px) {
+  .resize-header {
+    width: 38px;
+  }
+}
+@media (min-width: 1200px) {
+  .resize-header {
+    width: 40px;
+  }
+}
+
+.resize-hero {
+  width: 110px;
+}
+
+.resize-feature {
+  width: 100px;
+}
+
+.resize-people {
+  width: 144px;
+}
+
+.resize-demo {
+  width: 720px;
+}
+
+.resize-discover {
+  width: 804px;
+}
+
+.resize-footer {
+  width: 46px;
+}
+
+.resize-find {
+  width: 322px;
+}
+
 /* =============
     Typography
 ============= */
@@ -404,6 +450,69 @@ a {
 /* =============
     Header
 ============= */
+header {
+  display: grid;
+  grid-template-columns: 20% auto;
+  grid-template-areas: "checkoutS survival" "nav nav";
+  width: 100%;
+  background-color: white;
+  top: 0;
+  left: 0;
+}
+@media (min-width: 768px) {
+  header {
+    grid-template-columns: 70% auto;
+    grid-template-areas: "nav survival";
+    padding: 24px;
+  }
+}
+header #burger-container {
+  grid-area: survival;
+  padding: 16px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header #burger-container button {
+  border: none;
+  background-color: transparent;
+  color: black;
+}
+header #burger-container button i {
+  font-size: 1.875rem;
+}
+@media (min-width: 768px) {
+  header #burger-container {
+    display: none;
+  }
+}
+header #checkout-container {
+  grid-area: survival;
+  padding: 16px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header #checkout-container button {
+  border: none;
+  background-color: var(--teal);
+  font-weight: 700;
+  font-size: 1.5rem;
+  border-radius: 23px;
+  color: white;
+  padding: 10px 15px;
+}
+header nav {
+  grid-area: nav;
+  padding: 16px;
+}
+@media (min-width: 768px) {
+  header nav {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
 /* =============
     Footer
 ============= */
@@ -411,23 +520,9 @@ a {
     1hero
 ============= */
 #_1hero {
-  background-image: url("../img/1hero/hero.jpeg");
-  background-size: cover;
-  background-position: center;
-  height: vh;
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". _1hero .";
-}
-@media (min-width: 1024px) {
-  #_1hero {
-    height: 70vh;
-  }
-}
-@media (min-width: 1440px) {
-  #_1hero {
-    height: 75vh;
-  }
 }
 #_1hero > div {
   grid-area: _1hero;
@@ -476,10 +571,92 @@ a {
 }
 
 /* =============
-    2new
+   2new
 ============= */
 #_2new {
   background-image: url("../img/2new/Group50.jpg");
   background-size: cover;
   background-position: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 40vh;
+}
+@media (min-width: 1024px) {
+  #_2new {
+    height: 120vh;
+  }
+}
+#_2new > div {
+  grid-area: _2new;
+}
+#_2new > div #_2new-top h1 {
+  font-family: "Inter", sans-serif;
+  color: var(--pink);
+  font-size: 1rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #_2new > div #_2new-top h1 {
+    font-size: 1.125rem;
+  }
+}
+@media (min-width: 1200px) {
+  #_2new > div #_2new-top h1 {
+    font-size: 1.25rem;
+  }
+}
+#_2new > div #_2new-top h2 {
+  font-family: "Inter", sans-serif;
+  color: var(--greenDark);
+  font-size: 2.75rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #_2new > div #_2new-top h2 {
+    font-size: 3.125rem;
+  }
+}
+@media (min-width: 1200px) {
+  #_2new > div #_2new-top h2 {
+    font-size: 3.5625rem;
+  }
+}
+#_2new > div #_2new-top h3 {
+  font-family: "Inter", sans-serif;
+  color: var(--greyLight);
+  font-size: 1.25rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #_2new > div #_2new-top h3 {
+    font-size: 1.3125rem;
+  }
+}
+@media (min-width: 1200px) {
+  #_2new > div #_2new-top h3 {
+    font-size: 1.4375rem;
+  }
+}
+#_2new > div #_2new-top h4 {
+  font-family: "Inter", sans-serif;
+  color: var(--black);
+  font-size: 1rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #_2new > div #_2new-top h4 {
+    font-size: 136.3125rem;
+  }
+}
+@media (min-width: 1200px) {
+  #_2new > div #_2new-top h4 {
+    font-size: 1.2rem;
+  }
+}
+#_2new > div #_2new-top button {
+  background-color: var(--teal);
+  color: var(--white);
+}
+#_2new > div #_2new-top nav {
+  color: var(--teal);
 }

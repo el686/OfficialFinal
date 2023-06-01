@@ -1,3 +1,69 @@
 /* =============
     Header
 ============= */
+header{
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-areas: 
+    "checkoutS survival"
+    "nav nav";
+    width: 100%;
+    background-color: white;
+    top: 0;
+    left: 0;
+
+    @include md{
+        grid-template-columns: 70% auto;
+        grid-template-areas: 
+         "nav survival";
+         padding: 24px;
+    }
+
+#burger-container{
+    grid-area: survival;
+    padding: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    button{
+        border: none;
+        background-color: transparent;
+        color: black;
+        i{
+            font-size: rem-calc(30);
+        }
+    }
+
+    @include md{
+        display: none;
+    }
+}
+
+#checkout-container{
+    grid-area: survival;
+    padding: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    button{
+        border: none;
+        background-color: var(--teal);
+        font-weight: 700;
+        font-size: rem-calc(24);
+        border-radius: 23px;
+        color: white;
+        padding: 10px 15px;
+    }
+}
+
+nav{
+    grid-area: nav;
+    padding: 16px;
+    @include md{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+}
