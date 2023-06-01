@@ -16,14 +16,14 @@
         @include md {
             width: 550px
         }
+        @include lg {
+            width: 1000px
+        }
     
         @include xl {
             width: 1440px
         }
     } 
-    @include lg {
-        height: 120vh;
-    }
 
     > div {
         grid-area: _2new;
@@ -81,7 +81,7 @@
                 text-align: center;
 
                 @include md {
-                    font-size: rem-calc(2181);
+                    font-size: rem-calc(21);
                 }
 
                 @include xl {

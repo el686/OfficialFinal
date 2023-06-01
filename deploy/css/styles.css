@@ -613,14 +613,14 @@ header nav {
     width: 550px;
   }
 }
+@media (min-width: 1024px) {
+  #_2new .resize-new {
+    width: 1000px;
+  }
+}
 @media (min-width: 1200px) {
   #_2new .resize-new {
     width: 1440px;
-  }
-}
-@media (min-width: 1024px) {
-  #_2new {
-    height: 120vh;
   }
 }
 #_2new > div {
@@ -682,7 +682,7 @@ header nav {
 }
 @media (min-width: 768px) {
   #_2new > div #_2new-top h4 {
-    font-size: 136.3125rem;
+    font-size: 1.3125rem;
   }
 }
 @media (min-width: 1200px) {
