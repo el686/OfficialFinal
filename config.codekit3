@@ -30,12 +30,28 @@
       "oAP" : "\/Assets\/In-class-S23.fig",
       "oF" : 0
     },
-    "\/deploy\/checkout.html" : {
+    "\/deploy\/checkout1.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/checkout.html",
+      "oAP" : "\/deploy\/checkout1.html",
+      "oF" : 0
+    },
+    "\/deploy\/checkout2.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout2.html",
+      "oF" : 0
+    },
+    "\/deploy\/checkout3.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout3.html",
       "oF" : 0
     },
     "\/deploy\/css\/styles.css" : {
@@ -545,13 +561,29 @@
       "oAP" : "\/deploy\/thankyou.html",
       "oF" : 0
     },
-    "\/dev\/checkout.kit" : {
+    "\/dev\/checkout1.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/checkout.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 2
+    },
+    "\/dev\/checkout2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout2.html",
+      "oF" : 2
+    },
+    "\/dev\/checkout3.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout3.html",
+      "oF" : 2
     },
     "\/dev\/content\/1hero.kit" : {
       "cB" : 0,
@@ -599,6 +631,38 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/6find.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/checkout1\/1nav.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/checkout1\/1nav.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/checkout1\/2hero" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/checkout1\/2hero",
+      "oF" : 0
+    },
+    "\/dev\/content\/checkout1\/3filter" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/checkout1\/3filter",
+      "oF" : 0
+    },
+    "\/dev\/content\/checkout1\/4Price " : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/checkout1\/4Price ",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -912,8 +976,8 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/thankyou.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/thankyou.html",
+      "oF" : 2
     },
     "\/README 2.md" : {
       "cB" : 0,

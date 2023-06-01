@@ -12,6 +12,7 @@ html {
 ============= */
 :root {
   --black: #000000;
+  --black2: #1E1E1E;
   --white: #ffffff;
   --Black1: #222222;
   --grey: #E6E6E6;
@@ -343,9 +344,35 @@ template {
 /* =============
     Base
 ============= */
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
+.top-content-spacing {
+  padding-top: 16px;
+}
+@media (min-width: 1200px) {
+  .top-content-spacing {
+    padding-top: 0px;
+  }
+}
+
 /* =============
     Typography
 ============= */
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 /* =============
     Buttons
 ============= */
@@ -370,6 +397,10 @@ textarea {
 /* =============
     Navigation
 ============= */
+a {
+  text-decoration: none;
+}
+
 /* =============
     Header
 ============= */
@@ -379,6 +410,68 @@ textarea {
 /* =============
     1hero
 ============= */
+#_1hero {
+  background-image: url("../img/1hero/hero.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: vh;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". _1hero .";
+}
+@media (min-width: 1024px) {
+  #_1hero {
+    height: 70vh;
+  }
+}
+@media (min-width: 1440px) {
+  #_1hero {
+    height: 75vh;
+  }
+}
+#_1hero > div {
+  grid-area: _1hero;
+}
+#_1hero > div #_1hero-top h1 {
+  font-family: "Inter", sans-serif;
+  color: var(--greenDark);
+  font-size: 2.125rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  #_1hero > div #_1hero-top h1 {
+    font-size: 3.125rem;
+    text-align: right;
+  }
+}
+@media (min-width: 1200px) {
+  #_1hero > div #_1hero-top h1 {
+    font-size: 3.583125rem;
+    text-align: right;
+  }
+}
+#_1hero #_1hero-bottom h2 {
+  font-family: "Inter", sans-serif;
+  color: var(--black2);
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 600;
+}
+@media (min-width: 768px) {
+  #_1hero #_1hero-bottom h2 {
+    font-size: 1.3125rem;
+    text-align: right;
+    font-weight: 500;
+  }
+}
+@media (min-width: 1200px) {
+  #_1hero #_1hero-bottom h2 {
+    font-size: 1.44rem;
+    text-align: right;
+    font-weight: 500;
+  }
+}
+
 /* =============
     2new
 ============= */
