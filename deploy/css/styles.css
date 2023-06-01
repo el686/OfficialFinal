@@ -361,6 +361,10 @@ ul li {
   }
 }
 
+.resize-footer {
+  width: 46px;
+}
+
 .resize-logo {
   width: 110px;
 }
@@ -380,7 +384,21 @@ ul li {
 }
 
 .resize-hero {
-  width: 110px;
+  width: 360px;
+}
+@media (min-width: 768px) {
+  .resize-hero {
+    width: 550px;
+  }
+}
+@media (min-width: 1200px) {
+  .resize-hero {
+    width: 780px;
+  }
+}
+
+.resize-demo {
+  width: 720px;
 }
 
 .resize-feature {
@@ -391,16 +409,8 @@ ul li {
   width: 144px;
 }
 
-.resize-demo {
-  width: 720px;
-}
-
 .resize-discover {
   width: 804px;
-}
-
-.resize-footer {
-  width: 46px;
 }
 
 .resize-find {
