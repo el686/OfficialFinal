@@ -50,17 +50,20 @@
                 font-size: rem-calc(16);
                 text-align: center;
                 font-weight: 600;
+                margin-top: 16px;
 
                 @include md{
                     font-size: rem-calc(21);
                     text-align: right;
                     font-weight: 500;
+                    margin-top: 24px;
                 }
 
                 @include xl{
                     font-size: rem-calc(23.04);
                     text-align: right;
                     font-weight: 500;
+                    margin-top: 32px;
                 }
             }
         }       

@@ -92,6 +92,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/2new\/Group50.jpg" : {
+      "ft" : 16384,
+      "iS" : 57731,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/2new\/Group50.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/2new\/mgradient.jpg" : {
       "ft" : 16384,
       "iS" : 57731,
@@ -891,7 +904,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_2new.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
