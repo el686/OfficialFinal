@@ -7,10 +7,9 @@
         display: grid;
         grid-template-columns: 16px auto 16px;
         grid-template-areas: ". _1hero .";
-    
+
         >div{
             grid-area: _1hero;
-
             #_1hero-top{
                 h1{
                     font-family: 'Inter', sans-serif;

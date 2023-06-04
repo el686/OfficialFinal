@@ -19,6 +19,11 @@ ul{
     }
 }
 
+.nav-top-content-spacing{
+    padding-top: 24px;
+}
+
+
 // global
 .resize-footer{
     width:46px
@@ -94,3 +99,12 @@ ul{
 .resize-find{
     width:322px
 }
+
+//_nav1
+.resize-nav{
+    width: 200px;
+    padding-top: 24px;
+    @include xl {
+        width: 597px
+    }
+    }

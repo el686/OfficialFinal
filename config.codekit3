@@ -38,14 +38,6 @@
       "oAP" : "\/deploy\/checkout.html",
       "oF" : 0
     },
-    "\/deploy\/checkout1.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/checkout1.html",
-      "oF" : 0
-    },
     "\/deploy\/checkout2.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -569,7 +561,7 @@
       "oAP" : "\/deploy\/thankyou.html",
       "oF" : 0
     },
-    "\/dev\/checkout1.kit" : {
+    "\/dev\/checkout.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
@@ -599,7 +591,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/1hero.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/2new.kit" : {
       "cB" : 0,
@@ -641,37 +633,37 @@
       "oAP" : "\/dev\/content\/6find.html",
       "oF" : 0
     },
-    "\/dev\/content\/checkout1\/1nav.kit" : {
+    "\/dev\/content\/checkout\/1nav.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/checkout1\/1nav.html",
-      "oF" : 0
+      "oA" : 1,
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 3
     },
-    "\/dev\/content\/checkout1\/2hero" : {
+    "\/dev\/content\/checkout\/2hero.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/checkout1\/2hero",
-      "oF" : 0
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/checkout\/2hero.html",
+      "oF" : 1
     },
-    "\/dev\/content\/checkout1\/3filter" : {
+    "\/dev\/content\/checkout\/3filter.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/checkout1\/3filter",
-      "oF" : 0
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/checkout\/3filter.html",
+      "oF" : 1
     },
-    "\/dev\/content\/checkout1\/4Price " : {
+    "\/dev\/content\/checkout\/4Price.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/checkout1\/4Price ",
-      "oF" : 0
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/checkout\/4Price.html",
+      "oF" : 1
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
@@ -884,6 +876,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_1hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_1nav.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_1nav.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

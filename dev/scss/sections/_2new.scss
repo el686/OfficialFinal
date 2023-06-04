@@ -4,15 +4,23 @@
 ============= */
 
 #_2new {
+
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". _1hero .";
+
     background-image: url("../img/2new/gradient2.jpeg");
     background-size: cover;
     background-position: center;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 70px;
+    margin-bottom: 24px;
     height: 40vh;
 
         @include lg {
             background-image: url("../img/2new/gradient1.jpeg");
+            margin-top: auto;
+            margin-bottom: auto;
+
         }
 
     // background-size: cover;
@@ -21,7 +29,7 @@
     // margin-bottom: auto;
     // height: 40vh;
     
-    > div {
+    >div{
         grid-area: _2new;
 
         #_2new-top {
@@ -30,6 +38,7 @@
                 color: var(--pink);
                 font-size: rem-calc(16);
                 text-align: center;
+                font-weight: 600;
 
                 @include md {
                     font-size: rem-calc(18);
@@ -84,16 +93,19 @@
                     font-size: rem-calc(19.2);
                 }
             }
-
-            button{
-                background-color: var(--teal);
-                color: var(--white);
-            }
-
-            nav{
-                color: var(--teal)
-            }
-
         }
+
+            #_2new-bottom {
+                button{
+                    background-color: var(--teal);
+                    color: var(--white);
+                    // display: flex;
+                    // justify-content: center;
+                    // align-items: center;
+                    }
+                nav{
+                    color: var(--teal)
+                }
+            }
+       }
     }
-}

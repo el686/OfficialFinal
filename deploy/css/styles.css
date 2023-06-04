@@ -361,6 +361,10 @@ ul li {
   }
 }
 
+.nav-top-content-spacing {
+  padding-top: 24px;
+}
+
 .resize-footer {
   width: 46px;
 }
@@ -429,6 +433,16 @@ ul li {
 
 .resize-find {
   width: 322px;
+}
+
+.resize-nav {
+  width: 200px;
+  padding-top: 24px;
+}
+@media (min-width: 1200px) {
+  .resize-nav {
+    width: 597px;
+  }
 }
 
 /* =============
@@ -611,16 +625,21 @@ header nav {
    2new
 ============= */
 #_2new {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". _1hero .";
   background-image: url("../img/2new/gradient2.jpeg");
   background-size: cover;
   background-position: center;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-top: 70px;
+  margin-bottom: 24px;
   height: 40vh;
 }
 @media (min-width: 1024px) {
   #_2new {
     background-image: url("../img/2new/gradient1.jpeg");
+    margin-top: auto;
+    margin-bottom: auto;
   }
 }
 #_2new > div {
@@ -631,6 +650,7 @@ header nav {
   color: var(--pink);
   font-size: 1rem;
   text-align: center;
+  font-weight: 600;
 }
 @media (min-width: 768px) {
   #_2new > div #_2new-top h1 {
@@ -690,10 +710,19 @@ header nav {
     font-size: 1.2rem;
   }
 }
-#_2new > div #_2new-top button {
+#_2new > div #_2new-bottom button {
   background-color: var(--teal);
   color: var(--white);
 }
-#_2new > div #_2new-top nav {
+#_2new > div #_2new-bottom nav {
   color: var(--teal);
+}
+
+#_1nav {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". _1nav-top .";
+}
+#_1nav #_1nav-top {
+  grid-area: _1nav-top;
 }
