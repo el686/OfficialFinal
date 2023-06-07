@@ -26,6 +26,7 @@ html {
   --blueLight: #DCFBFF;
   --greenDark: #09272A;
   --greyLight: #696F71;
+  --greyMedium: #6B6868;
   --purpleDark: #5C3063;
   --purpleNeon: #A93ABA;
   --pink: #D580E2;
@@ -428,7 +429,7 @@ ul li {
 }
 
 .resize-discover {
-  width: 804px;
+  width: 350px;
 }
 
 .resize-find {
@@ -443,6 +444,22 @@ ul li {
   .resize-nav {
     width: 597px;
   }
+}
+
+.resize-back-icn {
+  width: 35px;
+}
+
+.resize-thankyou-icn {
+  width: 32.75px;
+  height: 29.11;
+}
+
+.resize-product {
+  width: 116px;
+  height: 115px;
+  border-radius: 5px;
+  box-shadow: 0 6px 4px rgba(0, 0, 0, 0.3);
 }
 
 /* =============
@@ -638,8 +655,10 @@ header nav {
 @media (min-width: 1024px) {
   #_2new {
     background-image: url("../img/2new/gradient1.jpeg");
+    background-position: center bottom;
     margin-top: auto;
     margin-bottom: auto;
+    height: 80vh;
   }
 }
 #_2new > div {
@@ -725,4 +744,104 @@ header nav {
 }
 #_1nav #_1nav-top {
   grid-area: _1nav-top;
+}
+/* =============
+   _2thank
+============= */
+#_2thank {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". _2thank .";
+}
+#_2thank > div {
+  grid-area: _2thank;
+  text-align: center;
+}
+#_2thank > div h1 {
+  font-family: "Inter", sans-serif;
+  color: var(--tealDark);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+#_2thank > div h2 {
+  font-family: "Inter", sans-serif;
+  color: var(--teal);
+  font-size: 1.25rem;
+}
+#_2thank > div h3 {
+  font-family: "Inter", sans-serif;
+  color: var(--tealLight);
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+/* =============
+   _2thank
+============= */
+#_3product {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". _3product .";
+}
+#_3product > div {
+  grid-area: _3product;
+}
+#_3product > div #_3product-text {
+  text-align: center;
+}
+#_3product > div #_3product-text h3 {
+  font-family: "Open Sans", sans-serif;
+  color: var(--greyLight);
+  font-size: 0.6875rem;
+  font-weight: 600;
+}
+#_3product > div #_3product-text button {
+  border: none;
+  background-color: var(--purpleNeon);
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 10px;
+}
+#_3product > div #product ul li {
+  display: flex;
+}
+#_3product > div #product ul li section {
+  margin-left: auto;
+  text-align: right;
+}
+@media (min-width: 768px) {
+  #_3product > div #product ul li section {
+    display: flex;
+    text-align: left;
+    width: 100%;
+  }
+  #_3product > div #product ul li section .right-side {
+    margin-left: auto;
+  }
+}
+#_3product > div #product h1 {
+  font-family: "Open Sans", sans-serif;
+  color: var(--greyMedium);
+  font-size: 1rem;
+  font-weight: 500;
+}
+#_3product > div #product h2 {
+  font-family: "Open Sans", sans-serif;
+  color: var(--greyMedium);
+  font-size: 0.75rem;
+  font-weight: 200;
+}
+#_3product > div #product h3 {
+  font-family: "Open Sans", sans-serif;
+  color: var(--greyMedium);
+  font-size: 0.875rem;
+  font-weight: 650;
+}
+#_3product > div #product h4 {
+  font-family: "Open Sans", sans-serif;
+  color: var(--greyMedium);
+  font-size: 0.875rem;
+  font-weight: 100;
 }

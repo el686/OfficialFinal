@@ -92,7 +92,7 @@ ul{
 }
 
 .resize-discover{
-    width:804px
+    width:350px
 }
 
 // find
@@ -108,3 +108,20 @@ ul{
         width: 597px
     }
     }
+
+    //_thankyou
+        //products
+        .resize-back-icn{
+            width: 35px;
+        }
+        .resize-thankyou-icn {
+            width: 32.75px;
+            height: 29.11;
+        }
+
+        .resize-product {
+            width:116px;
+            height: 115px;
+            border-radius: 5px;
+            box-shadow: 0 6px 4px rgba(0, 0, 0, 0.3);
+        }

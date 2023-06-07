@@ -18,8 +18,11 @@
 
         @include lg {
             background-image: url("../img/2new/gradient1.jpeg");
+            background-position: center bottom;
             margin-top: auto;
             margin-bottom: auto;
+
+            height: 80vh
 
         }
 

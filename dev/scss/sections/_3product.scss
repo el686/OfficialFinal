@@ -1,0 +1,144 @@
+/* =============
+   _2thank
+============= */
+
+
+#_3product {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". _3product .";
+
+    >div {
+        grid-area: _3product;
+
+        #_3product-text {
+            text-align: center;
+
+            h3 {
+                font-family: 'Open Sans', sans-serif;
+                color: var(--greyLight);
+                font-size: rem-calc(11);
+                font-weight: 600;
+            }
+
+            button {
+                border: none;
+                background-color: var(--purpleNeon);
+                font-weight: 700;
+                font-size: rem-calc(16);
+                border-radius: 10px;
+                color: white;
+                padding: 10px 10px;
+            }
+        }
+
+        #product {
+            ul{
+
+                li{
+                    display: flex;
+                    aside{
+
+                    }
+
+                    section{
+                        margin-left: auto;
+                        text-align: right;
+
+                        @include md{
+                            display: flex;
+                             text-align: left;
+                            // border: 1px solid red;
+                               width: 100%;
+
+                            .right-side{
+                                margin-left: auto;
+                            }
+                        }
+                    }
+                }
+
+                // li{
+                //     .printer1 {
+                //         margin-top: 17px;
+                //         margin-bottom: 17px;
+                //         display: grid;
+                //         grid-template-columns: 80% auto;
+                //         grid-template-areas: ". printer1 ."
+                //         aside{
+                //             grid-area: printer1;
+                //         }
+                //     }
+                // }
+
+                // li{
+                //     .printer2 {
+                //         margin-top: 17px;
+                //         margin-bottom: 17px;
+                //         display: grid;
+                //         grid-template-columns: 80% auto;
+                //         grid-template-areas: ". printer2 ."
+                //         aside{
+                //             grid-area: printer2;
+                //         }
+                //     }
+                // }
+
+                // li{
+                //     .printer3 {
+                //         margin-top: 17px;
+                //         margin-bottom: 17px;
+                //         display: grid;
+                //         grid-template-columns: 80% auto;
+                //         grid-template-areas: ". printer3 ."
+                //         aside{
+                //             grid-area: printer3;
+                //         }
+                //     }
+                // }
+
+                // li{
+                //     .printer4 {
+                //         margin-top: 17px;
+                //         margin-bottom: 17px;
+                //         display: grid;
+                //         grid-template-columns: 80% auto;
+                //         grid-template-areas: ". printer4 ."
+                //         aside{
+                //             grid-area: printer4;
+                //         }
+                //     }
+                // }
+
+            }
+
+            h1 {
+                font-family: 'Open Sans', sans-serif;
+                color: var(--greyMedium);
+                font-size: rem-calc(16);
+                font-weight: 500;
+            }
+
+            h2 {
+                font-family: 'Open Sans', sans-serif;
+                color: var(--greyMedium);
+                font-size: rem-calc(12);
+                font-weight: 200;
+            }
+
+            h3 {
+                font-family: 'Open Sans', sans-serif;
+                color: var(--greyMedium);
+                font-size: rem-calc(14);
+                font-weight: 650;
+            }
+
+            h4 {
+                font-family: 'Open Sans', sans-serif;
+                color: var(--greyMedium);
+                font-size: rem-calc(14);
+                font-weight: 100;
+            }
+        }
+    }
+}
