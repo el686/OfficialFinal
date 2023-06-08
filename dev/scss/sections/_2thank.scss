@@ -11,24 +11,29 @@
     >div{
         grid-area: _2thank;
         text-align: center;
+        margin-top: 30px;
+
         h1 {
             font-family: 'Inter', sans-serif;
             color: var(--tealDark);
             font-size: rem-calc(24);
             font-weight: 600;
+            margin-bottom: 13px;
         }
 
         h2 {
             font-family: 'Inter', sans-serif;
             color: var(--teal);
             font-size: rem-calc(20);
+            margin-bottom: 7px;
         }
 
         h3{
             font-family: 'Inter', sans-serif;
             color: var(--tealLight);
             font-size: rem-calc(16);
-            font-weight: 100;
+            font-weight: 500;
+            margin-bottom: 10px;
         }
     }
  }

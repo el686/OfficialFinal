@@ -27,6 +27,7 @@ html {
   --greenDark: #09272A;
   --greyLight: #696F71;
   --greyMedium: #6B6868;
+  --greyLightLight: #8E8A8A;
   --purpleDark: #5C3063;
   --purpleNeon: #A93ABA;
   --pink: #D580E2;
@@ -644,7 +645,7 @@ header nav {
 #_2new {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". _1hero .";
+  grid-template-areas: ". _2new .";
   background-image: url("../img/2new/gradient2.jpeg");
   background-size: cover;
   background-position: center;
@@ -663,6 +664,9 @@ header nav {
 }
 #_2new > div {
   grid-area: _2new;
+}
+#_2new > div #_2new-top {
+  border: 1px solid #000;
 }
 #_2new > div #_2new-top h1 {
   font-family: "Inter", sans-serif;
@@ -756,23 +760,27 @@ header nav {
 #_2thank > div {
   grid-area: _2thank;
   text-align: center;
+  margin-top: 30px;
 }
 #_2thank > div h1 {
   font-family: "Inter", sans-serif;
   color: var(--tealDark);
   font-size: 1.5rem;
   font-weight: 600;
+  margin-bottom: 13px;
 }
 #_2thank > div h2 {
   font-family: "Inter", sans-serif;
   color: var(--teal);
   font-size: 1.25rem;
+  margin-bottom: 7px;
 }
 #_2thank > div h3 {
   font-family: "Inter", sans-serif;
   color: var(--tealLight);
   font-size: 1rem;
-  font-weight: 100;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
 /* =============
@@ -793,7 +801,7 @@ header nav {
   font-family: "Open Sans", sans-serif;
   color: var(--greyLight);
   font-size: 0.6875rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 #_3product > div #_3product-text button {
   border: none;
@@ -803,13 +811,19 @@ header nav {
   border-radius: 10px;
   color: white;
   padding: 10px 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 #_3product > div #product ul li {
   display: flex;
+  margin-bottom: 35px;
 }
 #_3product > div #product ul li section {
   margin-left: auto;
   text-align: right;
+}
+#_3product > div #product ul li section .left-side {
+  margin-bottom: 16px;
 }
 @media (min-width: 768px) {
   #_3product > div #product ul li section {
@@ -844,4 +858,73 @@ header nav {
   color: var(--greyMedium);
   font-size: 0.875rem;
   font-weight: 100;
+}
+
+#_4pay {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". _4pay .";
+}
+#_4pay > div {
+  grid-area: _4pay;
+}
+#_4pay > div #_4pay-top {
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  color: var(--greyMedium);
+  margin-bottom: 17px;
+  line-height: 1.4;
+}
+#_4pay > div #_4pay-top h1 {
+  font-weight: 800;
+  font-size: 0.875rem;
+}
+#_4pay > div #_4pay-top p {
+  font-size: 0.875rem;
+}
+#_4pay > div #_4pay-middle {
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+#_4pay > div #_4pay-middle h1 {
+  color: var(--greyMedium);
+  font-weight: 800;
+  font-size: 0.875rem;
+}
+#_4pay > div #_4pay-middle h2 {
+  color: var(--greyLight);
+  font-weight: 100;
+  font-size: 0.875rem;
+}
+#_4pay > div #_4pay-middle p {
+  color: var(--greyLight);
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+#_4pay > div #_4pay-end {
+  margin-top: 9px;
+  margin-bottom: 15px;
+}
+#_4pay > div #_4pay-end h4 {
+  color: var(--greyLight);
+  font-weight: 100;
+  font-size: 0.875rem;
+}
+#_4pay > div #_4pay-end h4 .Standard {
+  font-weight: 600;
+}
+
+#_5summary {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". _5summary .";
+}
+#_5summary #order ul li {
+  display: flex;
+}
+#_5summary #order ul li section {
+  margin-left: auto;
+  text-align: right;
 }

@@ -1,0 +1,30 @@
+#_5summary{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". _5summary .";
+
+    h1{
+
+    }
+
+    #order{
+        ul{
+            li{
+                display: flex;
+                aside{
+
+                }
+
+                section{
+                    margin-left: auto;
+                    text-align: right;
+
+                    .left-side{
+
+                    }
+                    
+                }
+            }
+        }
+    }
+}

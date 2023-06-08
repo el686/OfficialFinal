@@ -1,0 +1,57 @@
+#_4pay{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". _4pay .";
+
+    >div{
+        grid-area:_4pay;
+
+        #_4pay-top{
+            font-family: 'Inter', sans-serif;
+            font-size: rem-calc(14);
+            color: var(--greyMedium);
+            margin-bottom: 17px;
+            line-height: 1.4;
+            h1{
+                font-weight: 800;
+                font-size: rem-calc(14)
+            }
+            p{
+                font-size: rem-calc(14);
+            }
+        }
+        #_4pay-middle{
+            font-family: 'Inter', sans-serif;
+            text-align: left;
+            margin-bottom: 8px;
+            line-height: 1.6;
+            h1{
+                color: var(--greyMedium);
+                font-weight: 800;
+                font-size: rem-calc(14)
+            }
+            h2{
+                color: var(--greyLight);
+                font-weight: 100;
+                font-size: rem-calc(14);
+            }
+            p{
+                color: var(--greyLight);
+                font-weight: 500;
+                font-size: rem-calc(14);
+            }
+        }
+        #_4pay-end{
+            margin-top: 9px;
+            margin-bottom: 15px;
+            h4{
+                color: var(--greyLight);
+                font-weight: 100;
+                font-size: rem-calc(14);
+                .Standard {
+                    font-weight: 600;
+                  }
+            }
+        }
+    }
+}
