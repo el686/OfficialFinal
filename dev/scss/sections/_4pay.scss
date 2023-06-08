@@ -1,7 +1,8 @@
 #_4pay{
     display: grid;
-    grid-template-columns: 16px auto 16px;
+    grid-template-columns: 44px auto 44px;
     grid-template-areas: ". _4pay .";
+    padding: 5px;
 
     >div{
         grid-area:_4pay;
@@ -17,6 +18,7 @@
                 font-size: rem-calc(14)
             }
             p{
+                font-weight: 100;
                 font-size: rem-calc(14);
             }
         }
@@ -53,5 +55,11 @@
                   }
             }
         }
+
+        .divider {
+            border: none;
+            border-bottom: 1px solid #B6B6B6;
+        }
+
     }
 }
