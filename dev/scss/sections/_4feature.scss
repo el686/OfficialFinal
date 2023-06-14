@@ -1,0 +1,28 @@
+#_4feature {
+    >div {
+        ul {
+            li {
+                text-align: center;
+                padding: 8px;
+
+                h1 {
+                    font-family: 'Inter', sans-serif;
+                    color: var(--teal);
+                    font-size: rem-calc(27.65);
+                    font-weight: 700;
+                    padding: 4px;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-family: 'Open Sans', sans-serif;
+                    color: var(--greenDark);
+                    font-size: rem-calc(13.3);
+                    font-weight: 700;
+                    margin-bottom: 17px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}

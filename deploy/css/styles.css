@@ -373,7 +373,8 @@ ul li {
 }
 
 .resize-logo {
-  width: 110px;
+  width: 89px;
+  height: 75px;
 }
 .resize-header {
   width: 24px;
@@ -405,6 +406,7 @@ ul li {
 
 .resize-demo {
   width: 358px;
+  margin-bottom: 34px;
 }
 @media (min-width: 768px) {
   .resize-demo {
@@ -652,12 +654,14 @@ header nav {
    2new
 ============= */
 #_2new {
+  border: 1px solid #000;
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". _2new .";
   background-image: url("../img/2new/gradient2.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: center top;
+  background-repeat: no repeat;
   margin-top: 70px;
   margin-bottom: 24px;
   height: 40vh;
@@ -748,6 +752,113 @@ header nav {
 }
 #_2new > div #_2new-bottom nav {
   color: var(--teal);
+}
+
+#_3demo {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". _3demo .";
+}
+#_3demo > div {
+  grid-area: _3demo;
+  margin-bottom: 50px;
+}
+#_3demo > div #left h1 {
+  font-family: "Inter", sans-serif;
+  color: var(--blueDark2);
+  font-size: 2.75rem;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+#_3demo > div #left P {
+  font-family: "Inter", sans-serif;
+  color: var(--black);
+  font-size: 1rem;
+  text-align: center;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+#_3demo > div #left-bottom {
+  text-align: center;
+}
+#_3demo > div #left-bottom button {
+  font-family: "Inter", sans-serif;
+  color: var(--white);
+  background-color: var(--mustard);
+  border-radius: 40px;
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding: 16px;
+  margin-bottom: 8px;
+}
+
+#_4feature > div ul li {
+  text-align: center;
+  padding: 8px;
+}
+#_4feature > div ul li h1 {
+  font-family: "Inter", sans-serif;
+  color: var(--teal);
+  font-size: 1.728125rem;
+  font-weight: 700;
+  padding: 4px;
+  margin-bottom: 10px;
+}
+#_4feature > div ul li p {
+  font-family: "Open Sans", sans-serif;
+  color: var(--greenDark);
+  font-size: 0.83125rem;
+  font-weight: 700;
+  margin-bottom: 17px;
+  line-height: 20px;
+}
+
+#_5discover #Discover1 section {
+  text-align: center;
+}
+#_5discover #Discover1 section h1 {
+  font-family: "Open Sans", sans-serif;
+  color: var(--purpleDark);
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+#_5discover #Discover1 section h2 {
+  font-family: "Open Sans", sans-serif;
+  color: var(--purpleDark);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#_5discover #Discover1 section p {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+#_5discover #Discover1 section button {
+  color: white;
+  background-color: var(--purpleDark);
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  border-radius: 40px;
+  padding: 16px;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+#_5discover #Discover2 {
+  display: none;
+}
+@media (min-width: 1024px) {
+  #_5discover #Discover2 {
+    display: block;
+  }
 }
 
 #_1nav {

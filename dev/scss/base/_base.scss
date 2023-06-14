@@ -29,7 +29,8 @@ ul {
 }
 
 .resize-logo {
-  width: 110px;
+  width: 89px;
+  height: 75px;
 
   @include xl;
 }
@@ -65,6 +66,7 @@ ul {
 
 .resize-demo {
   width: 358px;
+  margin-bottom: 34px;
 
   @include md {
     width: 550px;

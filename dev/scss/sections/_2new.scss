@@ -4,14 +4,15 @@
 ============= */
 
 #_2new {
-
+    border: 1px solid #000;
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". _2new .";
 
     background-image: url("../img/2new/gradient2.jpeg");
     background-size: cover;
-    background-position: center;
+    background-position: center top;
+    background-repeat: no repeat;
     margin-top: 70px;
     margin-bottom: 24px;
     height: 40vh;

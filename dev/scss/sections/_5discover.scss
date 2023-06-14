@@ -1,0 +1,49 @@
+#_5discover{
+    #Discover1{
+        section{
+            text-align: center;
+            h1{
+                font-family: 'Open Sans', sans-serif;
+                color: var(--purpleDark);
+                font-size: rem-calc(44);
+                font-weight: 700;
+                margin-bottom: 20px;
+                margin-top: 40px
+            }
+            h2{
+                font-family: 'Open Sans', sans-serif;
+                color: var(--purpleDark);
+                font-size: rem-calc(20);
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+            p{
+                font-family: 'Open Sans', sans-serif;
+                color: black;
+                font-size: rem-calc(16);
+                font-weight: 200;
+                line-height: 20px;
+                margin-bottom: 30px;
+            }
+            button{
+                color: white;
+                background-color: var(--purpleDark);
+                font-family: 'Inter', sans-serif;
+                font-size: rem-calc(24);
+                border-radius: 40px;
+                padding: 16px;
+                margin-top: 10px;
+                margin-bottom: 80px;
+
+            }
+        }
+    }
+
+    #Discover2{
+        display: none;
+
+        @include lg{
+            display: block
+        }
+    }
+}
