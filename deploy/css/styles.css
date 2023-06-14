@@ -449,12 +449,9 @@ ul li {
 }
 
 .resize-back-icn {
-  width: 35px;
-}
-
-.resize-thankyou-icn {
-  width: 32.75px;
-  height: 29.11;
+  background-color: var(--yellowLight);
+  border-radius: 50px 50px;
+  padding: 15px;
 }
 
 .resize-product {
@@ -472,6 +469,7 @@ ul li {
 .resize-bottom-social {
   width: 50px;
   height: 50px;
+  fill: var(--teal);
 }
 
 /* =============
@@ -760,6 +758,28 @@ header nav {
 #_1nav #_1nav-top {
   grid-area: _1nav-top;
 }
+#_1nav4-nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#_1nav4-nav ul li {
+  margin-right: 41px;
+}
+
+.resize-back-icn,
+.resize-thankyou-icn {
+  width: 20px;
+  height: 20px;
+}
+
+.resize-thankyou-icn {
+  margin-left: 42px;
+  width: 32.75px;
+  height: 29.11px;
+}
+
 /* =============
    _2thank
 ============= */
@@ -1004,6 +1024,37 @@ header nav {
   font-weight: 200;
   margin-bottom: 5px;
 }
+#_5summary > div .divider {
+  border: none;
+  border-bottom: 1px solid #B6B6B6;
+}
+#_5summary > div #total ul li {
+  display: flex;
+}
+#_5summary > div #total ul li aside {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#_5summary > div #total ul li aside h2 {
+  font-family: "Open Sans", sans-serif;
+  color: var(--greyLightLight);
+  font-size: 1.25rem;
+  font-weight: 550;
+  margin-bottom: 5px;
+}
+#_5summary > div #total ul li section {
+  margin-left: auto;
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+#_5summary > div #total ul li section .right-side h3 {
+  font-family: "Open Sans", sans-serif;
+  color: var(--greyMedium);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
 
 #_6bottom {
   display: grid;
@@ -1024,6 +1075,7 @@ header nav {
   font-size: 1.25rem;
   font-weight: 700;
   margin-bottom: 5px;
+  margin-top: 14px;
 }
 #_6bottom > div #Total h2 {
   font-family: "Open Sans", sans-serif;
@@ -1031,28 +1083,40 @@ header nav {
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 5px;
+  margin-top: 10px;
 }
 #_6bottom > div #Explore {
   margin-top: 30px;
   margin-bottom: 20px;
 }
 #_6bottom > div #Explore h1 {
-  border: 1px solid #000;
   font-family: "Open Sans", sans-serif;
   color: var(--blueDark);
   font-size: 1.25rem;
   font-weight: 600;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 #_6bottom > div #Explore button {
   padding: px 10px 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: "Open Sans", sans-serif;
-  color: var(--blueDark);
+  color: var(--mustard);
   background-color: var(--yellowLight);
   border-radius: 5px;
   font-size: 1.25rem;
+  font-weight: 650;
+}
+#_6bottom > div #Explore .divider {
+  border: none;
+  border-bottom: 1px solid #B6B6B6;
+}
+#_6bottom #Follow h1 {
+  font-family: "Open Sans", sans-serif;
+  color: var(--blueDark);
+  font-size: 1.25rem;
   font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }

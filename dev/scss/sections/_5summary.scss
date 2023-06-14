@@ -65,6 +65,53 @@
                                 font-weight: 200;
                                 margin-bottom: 5px;
                             }
+                            
+                        }
+
+                    }
+                }
+            }
+        }
+        .divider {
+            border: none;
+            border-bottom: 1px solid #B6B6B6;
+        }
+
+        #total {
+
+            ul {
+                li {
+                    display: flex;
+
+                    aside {
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                        
+                        h2 {
+                            font-family: 'Open Sans', sans-serif;
+                            color: var(--greyLightLight);
+                            font-size: rem-calc(20);
+                            font-weight: 550;
+                            margin-bottom: 5px;
+                        }
+                    }
+
+
+                    section {
+                        margin-left: auto;
+                        text-align: right;
+                        margin-top: 10px;
+                        margin-bottom: 40px;
+
+                        .right-side {
+                            h3 {
+                                font-family: 'Open Sans', sans-serif;
+                                color: var(--greyMedium);
+                                font-size: rem-calc(24);
+                                font-weight: 600;
+                                margin-bottom: 5px;
+                            }
+                            
                         }
 
                     }

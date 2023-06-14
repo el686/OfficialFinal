@@ -1,16 +1,44 @@
-#_1nav4{
-    // display: grid;
-    // grid-template-columns: 16px auto 16px;
-    // grid-template-areas: ". _1nav4-nav .";
+// #_1nav4{
+//     display: flex;
 
-    >div{
-        #_1nav4-nav{
-            ul{
-                li{
+//     >div{
+//         #_1nav4-nav{
+//             ul{
+//                 li{
                     
-                }
-            }
-        }
-    }
+//                 }
+//             }
+//         }
+//     }
 
-}
+// }
+
+
+
+#_1nav4-nav ul {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  //left nav button
+  #_1nav4-nav ul li {
+    margin-right: 41px;
+  }
+  
+  .resize-back-icn,
+  // left nav button circle width 
+  .resize-thankyou-icn {
+    width: 20px;
+    height: 20px;
+  }
+  
+  //cart
+  .resize-thankyou-icn {
+    margin-left: 42px;
+    width: 32.75px;
+    height: 29.11px;
+  }
+  
