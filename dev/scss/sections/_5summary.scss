@@ -1,28 +1,73 @@
-#_5summary{
+#_5summary {
     display: grid;
-    grid-template-columns: 16px auto 16px;
+    grid-template-columns: 44px auto 44px;
     grid-template-areas: ". _5summary .";
+    padding: 5px;
 
-    h1{
-
+    h1 {
+        font-family: 'Open Sans', sans-serif;
+        color: var(--greyMedium);
+        font-size: rem-calc(16);
+        font-weight: 700;
     }
 
-    #order{
-        ul{
-            li{
-                display: flex;
-                aside{
+    >div {
+        grid-area: _5summary;
 
-                }
+        #order {
 
-                section{
-                    margin-left: auto;
-                    text-align: right;
+            ul {
+                li {
+                    display: flex;
 
-                    .left-side{
+                    aside {
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                        
+                        h2 {
+                            font-family: 'Open Sans', sans-serif;
+                            color: var(--greyLightLight);
+                            font-size: rem-calc(20);
+                            font-weight: 550;
+                            margin-bottom: 5px;
+                        }
+
+                        h3 {
+                            font-family: 'Open Sans', sans-serif;
+                            color: var(--greyLightLight);
+                            font-size: rem-calc(16);
+                            font-weight: 100;
+                            margin-bottom: 5px;
+                        }
+                    }
+
+
+                    section {
+                        margin-left: auto;
+                        text-align: right;
+                        margin-top: 18px;
+                        margin-bottom: 40px;
+
+                        .right-side {
+                            
+                            h4 {
+                                font-family: 'Open Sans', sans-serif;
+                                color: var(--greyMedium);
+                                font-size: rem-calc(14);
+                                font-weight: 600;
+                                margin-bottom: 5px;
+                            }
+
+                            p {
+                                font-family: 'Open Sans', sans-serif;
+                                color: var(--greyMedium);
+                                font-size: rem-calc(14);
+                                font-weight: 200;
+                                margin-bottom: 5px;
+                            }
+                        }
 
                     }
-                    
                 }
             }
         }

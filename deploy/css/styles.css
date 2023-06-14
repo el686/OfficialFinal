@@ -464,6 +464,16 @@ ul li {
   box-shadow: 0 6px 4px rgba(0, 0, 0, 0.3);
 }
 
+.resize-bottom-pic {
+  width: 168px;
+  height: 156px;
+}
+
+.resize-bottom-social {
+  width: 50px;
+  height: 50px;
+}
+
 /* =============
     Typography
 ============= */
@@ -940,13 +950,109 @@ header nav {
 
 #_5summary {
   display: grid;
-  grid-template-columns: 16px auto 16px;
+  grid-template-columns: 44px auto 44px;
   grid-template-areas: ". _5summary .";
+  padding: 5px;
 }
-#_5summary #order ul li {
+#_5summary h1 {
+  font-family: "Open Sans", sans-serif;
+  color: var(--greyMedium);
+  font-size: 1rem;
+  font-weight: 700;
+}
+#_5summary > div {
+  grid-area: _5summary;
+}
+#_5summary > div #order ul li {
   display: flex;
 }
-#_5summary #order ul li section {
+#_5summary > div #order ul li aside {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#_5summary > div #order ul li aside h2 {
+  font-family: "Open Sans", sans-serif;
+  color: var(--greyLightLight);
+  font-size: 1.25rem;
+  font-weight: 550;
+  margin-bottom: 5px;
+}
+#_5summary > div #order ul li aside h3 {
+  font-family: "Open Sans", sans-serif;
+  color: var(--greyLightLight);
+  font-size: 1rem;
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+#_5summary > div #order ul li section {
   margin-left: auto;
   text-align: right;
+  margin-top: 18px;
+  margin-bottom: 40px;
+}
+#_5summary > div #order ul li section .right-side h4 {
+  font-family: "Open Sans", sans-serif;
+  color: var(--greyMedium);
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+#_5summary > div #order ul li section .right-side p {
+  font-family: "Open Sans", sans-serif;
+  color: var(--greyMedium);
+  font-size: 0.875rem;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+
+#_6bottom {
+  display: grid;
+  grid-template-columns: 44px auto 44px;
+  grid-template-areas: ". _5summary .";
+  padding: 5px;
+}
+#_6bottom > div {
+  grid-area: _5summary;
+}
+#_6bottom > div #Total ul li section {
+  margin-left: auto;
+  text-align: right;
+}
+#_6bottom > div #Total h1 {
+  font-family: "Open Sans", sans-serif;
+  color: var(--blueDark);
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+#_6bottom > div #Total h2 {
+  font-family: "Open Sans", sans-serif;
+  color: var(--pink);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+#_6bottom > div #Explore {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#_6bottom > div #Explore h1 {
+  border: 1px solid #000;
+  font-family: "Open Sans", sans-serif;
+  color: var(--blueDark);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#_6bottom > div #Explore button {
+  padding: px 10px 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
+  color: var(--blueDark);
+  background-color: var(--yellowLight);
+  border-radius: 5px;
+  font-size: 1.25rem;
+  font-weight: 600;
 }

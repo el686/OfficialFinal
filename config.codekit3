@@ -767,57 +767,57 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/product\/1hero.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/product\/2new.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/product\/2new.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/product\/2text.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/product\/2text.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/product\/3demo.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/product\/3demo.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/product\/4feature.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/product\/4feature.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/product\/5discover.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/product\/5discover.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/product\/6find.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/product\/6find.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/thankyou\/_1nav4.kit" : {
       "cB" : 0,
