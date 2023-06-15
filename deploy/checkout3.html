@@ -42,72 +42,54 @@
         </nav>
     </header>
     
-    <section id="_1nav3">
+    <!-- <section id="_1nav3">
             <div>
                 <section id="_1nav3-nav">
                     <ul>
                         <li id="logo"><a href="checkout2.html"><img src="img/checkout/arrow-left-solid.svg" class="resize-back-icn"></a></li>
-                        <img src="img/checkout/step3.svg" alt="step3.jpeg">
+                        <img src="img/checkout/step3.svg" alt="step3.svg">
                         <img src="img/checkout/person.svg" alt="person.svg">
                     </ul>
                 </section>
             </div>
-        </section>
-    <section id="_2personal">
-                <div>
+        </section> -->
+        
+        <section id="_1nav3">
+            <div>
+              <a href="checkout2.html"><i class="fa-regular fa-arrow-left"></i></a>      
+              <img src="img/checkout/step3.svg" alt="step3.svg" />
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+         </section>
+        
+    
+            <section id="_2person">
+                <aside id="_2person-info">
                     <h1>Personal Information</h1>
-                    <section>
-                        <form action="#">
-                            <input type="text" placeholder = "First Name">
-                        </form>
-            
-                        <form action="#">
-                            <input type="text" placeholder = "Last Name">
-                        </form>
-                    </section>
-            
-                    <section>
-                        <form action="#">
-                            <input type="text" placeholder = "Email">
-                        </form>
-                        
-                        <form action="#">
-                            <input type="text" placeholder = "Phone">
-                        </form>
-                    </section>
-                </div>
+                    <form action="#">
+                        <input id="n1" type="name1" placeholder="First Name">
+                        <input id="n2" type="name2" placeholder="Last Name"> 
+                        <input id="n3" type="email" placeholder="Email">
+                        <input id="n4" type="number" placeholder="Phone">
+                    </form>
+                </aside>
             </section>
-            
-    <section id="_3shipping">
-                    <div>
+    
+                <section id="_3shipping">
+                    <aside id="_3shipping-info">
                         <h1>Shipping Address</h1>
-                        <section>
-                            <form action="#">
-                                <input type="text" placeholder = "Address">
-                            </form>
+                        <form action="#">
+                            <input id="p4" type="text" placeholder="Address">
+                            <input id="p5" type="text" placeholder="Apt, Suite, etc.">
+                            <input id="p6" type="text" placeholder="City">
+                            <input id="p7" type="text" placeholder="State">
+                            <input id="p8" type="text" placeholder="Zip Code">
+                        </form>
+                    </aside>
                 
-                            <form action="#">
-                                <input type="text" placeholder = "Apt, Suite, etc.">
-                            </form>
-                        </section>
-                
-                        <section>
-                            <form action="#">
-                                <input type="text" placeholder = "City">
-                            </form>
-                
-                            <form action="#">
-                                <input type="text" placeholder = "State">
-                            </form>
-                
-                            <form action="#">
-                                <input type="text" placeholder = "Zip Code">
-                            </form>
-                        </section>
-                    </div>
-                
-                    <a href="thankyou.html"><button>Confirm Payment</button></a>
-                
+                    <aside id="button">
+                        <a href="thankyou.html"><button>Confirm Payment</button></a>
+                    </aside>
                 </section>
                 
     <!-- <i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i>
@@ -124,13 +106,13 @@
                     <section id="f1">
                         <ul>
                             <li>
-                                <a href="#"><img src="img/footer/facebook.svg" alt="facebook icon" class="resize-footer"></a>
+                                <i class="fa-brands fa-square-facebook"></i>   
                             </li>
                             <li>
-                                <a href="#"><img src="img/footer/instagram.svg" alt="instagram icon" class="resize-footer" ></a>
+                                <i class="fa-brands fa-instagram"></i>  
                             </li>
                             <li>
-                                <a href="#"><img src="img/footer/youtube.svg" alt="youtube icon" class="resize-footer"></a>
+                                <i class="fa-brands fa-youtube"></i>        
                             </li>
                         </ul>
                     </section>

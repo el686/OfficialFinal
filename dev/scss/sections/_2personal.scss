@@ -1,0 +1,37 @@
+#_2person{
+    margin: 0px 16px;
+    padding-top: 20px;
+   
+    #_2person-info{
+        h1{
+                    font-family: 'Open Sans', sans-serif;
+                    color: #09272A;
+                    font-size: rem-calc(12);
+                    font-weight: 700;
+                    padding: 4px;
+        }       
+
+        form{
+            display: grid;
+            grid-template-columns: repeat(10,1fr);
+            grid-template-areas: 
+            "n1 n1 n1 n1 n1 n2 n2 n2 n2 n2"
+            "n3 n3 n3 n3 n3 n3 n3 n3 n3 n3"
+            "n4 n4 n4 n4 n4 n4 n4 n4 n4 n4";
+            gap: 10px;
+            
+            #n1 {
+                grid-area: n1;
+            }
+            #n2 {
+                grid-area: n2;
+            }
+            #n3 {
+                grid-area: n3;
+            }
+            #n4 {
+                grid-area: n4;
+            }
+        }
+    }
+}

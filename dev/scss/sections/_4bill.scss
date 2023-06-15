@@ -1,0 +1,66 @@
+#_4bill{
+    #_4bill-info{
+            margin: 0px 16px;
+            padding-top: 20px;
+                h1{
+                    font-family: 'Open Sans', sans-serif;
+                    color: #09272A;
+                    font-size: rem-calc(12);
+                    font-weight: 700;
+                    padding: 4px;
+                }
+
+                form{
+                    display: grid;
+                    grid-template-columns: repeat(10,1fr);
+                    grid-template-areas: 
+                    "p4 p4 p4 p4 p4 p4 p4 p4 p4 p4"
+                    "p5 p5 p5 p5 p5 p5 p5 p5 p5 p5"
+                    "p6 p6 p6 p6 p7 p7 p8 p8 p8 p8";
+                    gap: 10px;
+                    
+                    #p4 {
+                        grid-area: p4;
+                    }
+                    #p5 {
+                        grid-area: p5;
+                    }
+                    #p6 {
+                        grid-area: p6;
+                    }
+                    #p7 {
+                        grid-area: p7;
+                    }
+                    #p8 {
+                        grid-area: p8;
+                    }
+                }
+            }
+        
+            }
+            #button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+              }
+              
+              button {
+                display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    margin-top: 20px;
+                    margin-bottom: 40px;
+                    font-family: 'Open Sans', sans-serif;
+                    color: white;
+                    background-color:#1B5151;
+                    padding:16px;
+                    border-radius: 40px;
+                    font-size:rem-calc(20);
+                    font-weight: 200;              
+                }
+
+
+ 
+

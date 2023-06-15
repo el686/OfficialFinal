@@ -42,7 +42,7 @@
         </nav>
     </header>
     
-    <section id="_1nav2">
+    <!-- <section id="_1nav2">
             <div>
                 <section id="_1nav2-nav">
                     <ul>
@@ -58,7 +58,15 @@
                 </section>
                 
             </div>
-        </section>
+        </section> -->
+        
+        <section id="_1nav2">
+            <div>
+              <a href="checkout.html"><i class="fa-regular fa-arrow-left"></i></a>      
+              <img src="img/checkout/step2.svg" alt="step2.svg" />
+              <i class="fa-regular fa-credit-card"></i>    </div>
+         </section>
+        
     <section id="_2pay">
                 <div>
                     <section id="choice">
@@ -71,69 +79,32 @@
                 </div>
             </section>
     <section id="_3card">
-                
-                    <section id="_3card-info">
-                        <div>
-                            <section>
-                                <h1>Card Information</h1>
-                                <form action="#">
-                                    <input type="number" placeholder = "_____-_____-_____-_____">
-                                </form>
-                            </section>
-                
-                            <section>
-                                <h1>Expiration Date</h1>
-                                <form action="#">
-                                    <input type="text" placeholder = "MM/DD/YY">
-                                </form>
-                            </section>
-                
-                            <section>
-                                <h1>Security Code</h1>
-                                <form action="#">
-                                    <input type="number" placeholder = "CVC">
-                                </form>
-                            </section>
-                        </div>
-                    </section>
-                
+                    <aside id="_3card-info">
+                    <h1>Card Information</h1>    
+                        <form action="#">
+                            <input id="p4" type="card" placeholder="_____-_____-_____-_____">
+                            <input id="p5" type="exp" placeholder="MM/DD/YY"> 
+                            <input id="p6" type="cvc" placeholder="CVC">
+                        </form>
+                    </aside>
                 </section>
-    <section id="_4bill">
+                
+     <section id="_4bill">
+                        <aside id="_4bill-info">
+                            <h1>Billing Address</h1>
+                            <form action="#">
+                                <input id="p4" type="text" placeholder="Address">
+                                <input id="p5" type="text" placeholder="Apt, Suite, etc.">
+                                <input id="p6" type="text" placeholder="City">
+                                <input id="p7" type="text" placeholder="State">
+                                <input id="p8" type="text" placeholder="Zip Code">
+                            </form>
+                        </aside>
                     
-                        <section id="_4bill-info">
-                            <div>
-                                <section>
-                                    <h1>Billing address</h1>
-                                    <form action="#">
-                                        <input type="text" placeholder = "Address">
-                                    </form>
-                    
-                                    <form action="#">
-                                        <input type="text" placeholder = "Apt, Suite, etc.">
-                                    </form>
-                                </section>
-                    
-                                <section>
-                                    <form action="#">
-                                        <input type="text" placeholder = "City">
-                                    </form>
-                    
-                                    <form action="#">
-                                        <input type="text" placeholder = "State">
-                                    </form>
-                    
-                                    <form action="#">
-                                        <input type="text" placeholder = "Zip Code">
-                                    </form>
-                                </section>
-                            </div>
-                    
+                        <aside id="button">
                             <a href="checkout3.html"><button>Proceed to Personal Info</button></a>
-                    
-                        </section>
-                    
+                        </aside>
                     </section>
-                    
                     
     <!-- <i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i>
                         <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
@@ -149,13 +120,13 @@
                         <section id="f1">
                             <ul>
                                 <li>
-                                    <a href="#"><img src="img/footer/facebook.svg" alt="facebook icon" class="resize-footer"></a>
+                                    <i class="fa-brands fa-square-facebook"></i>   
                                 </li>
                                 <li>
-                                    <a href="#"><img src="img/footer/instagram.svg" alt="instagram icon" class="resize-footer" ></a>
+                                    <i class="fa-brands fa-instagram"></i>  
                                 </li>
                                 <li>
-                                    <a href="#"><img src="img/footer/youtube.svg" alt="youtube icon" class="resize-footer"></a>
+                                    <i class="fa-brands fa-youtube"></i>        
                                 </li>
                             </ul>
                         </section>

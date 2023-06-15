@@ -4,7 +4,6 @@
 ============= */
 
 #_2new {
-    border: 1px solid #000;
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". _2new .";
@@ -37,7 +36,6 @@
         grid-area: _2new;
 
         #_2new-top {
-            border: 1px solid #000;
             h1 {
                 font-family: 'Inter', sans-serif;
                 color: var(--pink);
@@ -101,16 +99,22 @@
         }
 
             #_2new-bottom {
+                text-align: center;
                 button{
-                    background-color: var(--teal);
+                    background-color: var(--tealDark);
                     color: var(--white);
-                    // display: flex;
-                    // justify-content: center;
-                    // align-items: center;
-                    }
+                    border: none;
+                    text-align: center;
+                    padding: 16px;
+                    border-radius: 35px;
+                    font-weight: 700;
+                    font-size: rem-calc(16);
+                }
+
                 nav{
                     color: var(--teal)
+
                 }
             }
        }
-    }
+}
