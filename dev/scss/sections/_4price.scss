@@ -1,0 +1,93 @@
+#_4price{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". _4price .";
+    >div{
+        grid-area: _4price;
+
+        #_4price-top{
+            >div{
+                section{
+                    h1{
+                        font-family: 'Open Sans', sans-serif;
+                        color: var(--tealDark);
+                        font-size: rem-calc(16);
+                        font-weight: 700;
+                        margin-bottom: 8px;
+                        margin-top: 8px;
+                    }
+                }
+            }
+
+            ul{
+                li{
+                    display: flex;
+                    padding: 16px;
+                }
+
+                aside{
+                    h1{
+                        font-family: 'Open Sans', sans-serif;
+                        color: #494949;
+                        font-size: rem-calc(20);
+                        font-weight: 700;
+                    }
+                    h2{
+                        font-family: 'Open Sans', sans-serif;
+                        color: #494949;
+                        font-size: rem-calc(16);
+                        font-weight: 600;
+                        margin-bottom: 10px;
+                    }
+                    h3{
+                        font-family: 'Open Sans', sans-serif;
+                        color: #494949;
+                        font-size: rem-calc(16);
+                        font-weight: 300;
+                        margin-bottom: 3px;
+                    }
+                    h4{
+                        font-family: 'Open Sans', sans-serif;
+                        color: #494949;
+                        font-size: rem-calc(16);
+                        font-weight: 300;
+                    }
+                }
+
+                section{
+                    margin-left: auto;
+                    text-align: right;
+
+                    .right-side{
+                        p{
+                            font-family: 'Open Sans', sans-serif;
+                            color: #494949;
+                            font-size: rem-calc(12);
+                            font-weight: 600;
+                            margin-bottom: 10px;
+                        }
+                    }
+
+                    .right-side2{
+                        h2{
+                            font-family: 'Open Sans', sans-serif;
+                            color: #494949;
+                            font-size: rem-calc(16);
+                            font-weight: 700;
+                        }
+                    }
+                }
+                button{
+                    border: none;
+                    text-align: center;
+                    background-color: #1B5151;
+                    padding: 16px;
+                    border-radius: 35px;
+                    font-weight: 700;
+                    font-size: rem-calc(16);
+                    color: white;
+            }
+            }
+        }
+    }
+}
