@@ -1,19 +1,20 @@
-// #_1nav4{
-//     border: 1px solid #000;
+#_1nav4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #_1nav4 div .fa-regular.fa-arrow-left {
+    color: black;
+    background-color: var(--yellowLight);
+    padding: 16px;
+    margin-right: 25px;
+    border-radius: 50px;
+    font-size: 25px;
+  }
 
-//     >div{
-//         ul{
-//             display: grid;
-//             grid-template-columns: repeat(3,1fr);
-//             grid-template-areas: nav-top;
-//             li{
-//                 grid-area: nav-top;
-//                 .resize-arrow{
-//                     width: 50px;
-//                 }
-                
-//             }
-//         }
-//     }
-//   }
- 
+  #_1nav4 aside .fa-solid.fa-cart-arrow-down {
+    margin-left: 30px;
+    font-size:35px;
+  }

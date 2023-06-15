@@ -1272,7 +1272,7 @@ button {
   font-size: 25px;
 }
 
-#_1nav3 aside .fa-solid.fa-cart-shopping {
+#_1nav3 aside .fa-regular.fa-address-card {
   margin-left: 30px;
   font-size: 35px;
 }
@@ -1360,6 +1360,27 @@ button {
   border-radius: 40px;
   font-size: 1.25rem;
   font-weight: 200;
+}
+
+#_1nav4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#_1nav4 div .fa-regular.fa-arrow-left {
+  color: black;
+  background-color: var(--yellowLight);
+  padding: 16px;
+  margin-right: 25px;
+  border-radius: 50px;
+  font-size: 25px;
+}
+
+#_1nav4 aside .fa-solid.fa-cart-arrow-down {
+  margin-left: 30px;
+  font-size: 35px;
 }
 
 /* =============
