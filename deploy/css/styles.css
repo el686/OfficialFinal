@@ -569,6 +569,7 @@ header #checkout-container button {
   border: none;
   background-color: transparent;
   color: black;
+  display: none;
 }
 header #checkout-container button i {
   font-size: 1.875rem;
