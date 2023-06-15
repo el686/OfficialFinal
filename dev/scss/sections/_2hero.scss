@@ -1,0 +1,71 @@
+#_2hero{
+    border: 1px solid blue;
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: ". _2hero .";
+    img{
+        border: 1px solid #000;
+        margin-top: 10px;
+        width: 150px;
+        margin-left: 15px;
+
+    }
+    >div{
+        grid-area: _2hero;
+        ul{
+            border: 1px solid green;
+            h1{
+                font-family: 'Open Sans', sans-serif;
+                color: black;
+                font-size: rem-calc(24);
+                font-weight: 700;
+                margin-bottom: 15px;
+                margin-top: 8px;
+
+            }
+
+            li{
+                border: 1px solid green;
+                display: flex;
+                align-content: left auto;
+
+                    aside{
+                        border: 1px solid blue;
+                        p{
+                            font-family: 'Open Sans', sans-serif;
+                            color: black;
+                            font-size: rem-calc(10);
+                            font-weight: 200;
+                            margin-bottom: 17px;
+                            margin-top: 15px
+                        
+                        }
+                    }
+
+                    section{
+                        border: 1px solid red;
+                        margin-left: auto;
+                        text-align: right;
+                            h2{
+                                font-family: 'Open Sans', sans-serif;
+                                color: black;
+                                font-size: rem-calc(10);
+                                font-weight: 600;
+                                margin-top: 15px;
+                                margin-bottom: 5px;
+                            }
+                            button{
+                                border: none;
+                                background-color: white;
+                                font-weight: 300;
+                                font-size: rem-calc(10);
+                                color: black;
+                                padding: 4px 4px;
+                                margin-top: 10px;
+                                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);                            }
+                        }
+                    }
+                }
+            }
+        }
+    

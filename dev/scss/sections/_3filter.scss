@@ -1,0 +1,38 @@
+#_3filter{
+    padding: 16px;
+    div{
+        padding: 20px;
+        background-color: var(--yellowLight);
+        border-radius: 10px;
+        aside{
+            display: flex;
+            img{
+                width: 19px;
+                height: 19px;
+                margin-top: 8px;
+            }
+
+            h1{
+                font-family: 'Open Sans', sans-serif;
+                color: black;
+                font-size: rem-calc(16);
+                font-weight: 700;
+                padding: 8px;
+                text-align: center;
+                margin-bottom: 8px;
+            }
+        }
+
+            section{
+                p{
+                    font-family: 'Open Sans', sans-serif;
+                    color: black;
+                    font-size: rem-calc(12);
+                    font-weight: 100;
+                    padding: 17px;
+                    background-color: white;
+                    line-height: 15px;
+                }
+            }
+        }
+    }

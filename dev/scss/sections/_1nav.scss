@@ -1,18 +1,29 @@
-#_1nav {
+// #_1nav{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
 
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". _1nav-top .";
+//     >div{
+//         #_1nav-nav{
+//             ul{
+//                 .resize-back-icn{
 
-    >div{
-        
-}
+//                 }
 
-#_1nav-top {
-    grid-area: _1nav-top;
-}
+//                 .resize-thankyou-icn{
 
-.resize-nav {
-}
+//                 }
 
-}
+//                 // .resize-than
+//             }
+//         }
+
+//         #_1nav-top{
+//             text-align: center;
+//             font-family: 'Open Sans', sans-serif;
+//             color: var(--blueDark);
+//             font-size: rem-calc(16);
+//             font-weight: 300;
+//         }
+//     }
+// }

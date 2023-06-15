@@ -1,44 +1,19 @@
 // #_1nav4{
-//     display: flex;
+//     border: 1px solid #000;
 
 //     >div{
-//         #_1nav4-nav{
-//             ul{
-//                 li{
-                    
+//         ul{
+//             display: grid;
+//             grid-template-columns: repeat(3,1fr);
+//             grid-template-areas: nav-top;
+//             li{
+//                 grid-area: nav-top;
+//                 .resize-arrow{
+//                     width: 50px;
 //                 }
+                
 //             }
 //         }
 //     }
-
-// }
-
-
-
-#_1nav4-nav ul {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-  }
-  
-  //left nav button
-  #_1nav4-nav ul li {
-    margin-right: 41px;
-  }
-  
-  .resize-back-icn,
-  // left nav button circle width 
-  .resize-thankyou-icn {
-    width: 20px;
-    height: 20px;
-  }
-  
-  //cart
-  .resize-thankyou-icn {
-    margin-left: 42px;
-    width: 32.75px;
-    height: 29.11px;
-  }
-  
+//   }
+ 
