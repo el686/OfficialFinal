@@ -861,6 +861,83 @@ header nav {
   }
 }
 
+#_6find > div {
+  text-align: center;
+}
+#_6find > div h1 {
+  font-family: "Open Sans", sans-serif;
+  color: var(--tealLight);
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+#_6find > div ul #a1 {
+  margin-bottom: 55px;
+}
+#_6find > div ul #a1 h1 {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 650;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+#_6find > div ul #a1 section div p {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 36px;
+}
+#_6find > div ul #a2 {
+  margin-bottom: 55px;
+}
+#_6find > div ul #a2 h1 {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 650;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+#_6find > div ul #a2 section div p {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 36px;
+}
+#_6find > div ul #a3 {
+  margin-bottom: 55px;
+}
+#_6find > div ul #a3 h1 {
+  font-family: "Open Sans", sans-serif;
+  color: var(--purpleNeon);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+#_6find > div ul #a3 section div p {
+  font-family: "Open Sans", sans-serif;
+  color: var(--purpleDark);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 36px;
+}
+#_6find > div ul #a3 section div button {
+  font-family: "Inter", sans-serif;
+  color: var(--white);
+  background-color: var(--purpleNeon);
+  border-radius: 40px;
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding: 16px;
+  margin-bottom: 8px;
+  margin-top: 25px;
+}
+
 #_1nav {
   display: grid;
   grid-template-columns: 16px auto 16px;

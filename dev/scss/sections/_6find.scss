@@ -1,0 +1,98 @@
+#_6find{
+    >div{
+        text-align: center;
+        h1{
+            font-family: 'Open Sans', sans-serif;
+            color: var(--tealLight);
+            font-size: rem-calc(44);
+            font-weight: 700;
+            margin-bottom: 20px;
+            margin-top: 40px
+        }
+
+        ul{
+
+            #a1{
+                margin-bottom: 55px;
+                h1{
+                    font-family: 'Open Sans', sans-serif;
+                    color: black;
+                    font-size: rem-calc(24);
+                    font-weight: 650;
+                    margin-bottom: 30px;
+                    margin-top: 40px
+                }
+                section{
+                    div{
+                        p{
+                            font-family: 'Open Sans', sans-serif;
+                            color: black;
+                            font-size: rem-calc(19.2);
+                            font-weight: 400;
+                            line-height: 36px;
+                        }
+                    }
+                }
+            }
+
+            #a2{
+                margin-bottom: 55px;
+                h1{
+                    font-family: 'Open Sans', sans-serif;
+                    color: black;
+                    font-size: rem-calc(24);
+                    font-weight: 650;
+                    margin-bottom: 30px;
+                    margin-top: 40px
+                }
+                section{
+                    div{
+                        p{
+                            font-family: 'Open Sans', sans-serif;
+                            color: black;
+                            font-size: rem-calc(19.2);
+                            font-weight: 400;
+                            line-height: 36px;
+                        }
+                    }
+                }
+            }
+
+
+            #a3{
+                margin-bottom: 55px;
+                h1{
+                    font-family: 'Open Sans', sans-serif;
+                    color: var(--purpleNeon);
+                    font-size: rem-calc(24);
+                    font-weight: 700;
+                    margin-bottom: 30px;
+                    margin-top: 40px
+                }
+                section{
+                    div{
+                        p{
+                            font-family: 'Open Sans', sans-serif;
+                            color: var(--purpleDark);
+                            font-size: rem-calc(19.2);
+                            font-weight: 400;
+                            line-height: 36px;
+                        }
+                        button{
+                            font-family: 'Inter', sans-serif;
+                            color: var(--white);
+                            background-color: var(--purpleNeon);
+                            border-radius: 40px;
+                            font-size: rem-calc(24);
+                            font-weight: 200;
+                            padding: 16px;
+                            margin-bottom: 8px;
+                            margin-top: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
