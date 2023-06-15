@@ -1137,6 +1137,10 @@ header nav {
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
 }
 
+#_3card #_3card-info > div section {
+  width: 100%;
+}
+
 /* =============
    _2thank
 ============= */
