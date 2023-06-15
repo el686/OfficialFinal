@@ -1,0 +1,28 @@
+#_1nav2{
+    >div{
+        #_1nav-top{
+            h1{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                font-family: 'Open Sans', sans-serif;
+                color: #1B5151;
+                font-size: rem-calc(16);
+                font-weight: 700;
+                padding: 4px;
+            }
+            h2{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding: 4px;
+                font-family: 'Open Sans', sans-serif;
+                color: var(--greyLight);
+                font-size: rem-calc(12);
+                font-weight: 600;
+            }
+        }
+    }
+}

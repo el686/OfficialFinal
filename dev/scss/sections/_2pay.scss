@@ -1,0 +1,16 @@
+#_2pay{
+    >div{
+        #choice{
+            ul{
+                display: flex;
+                justify-content: center; 
+                align-items: center;
+                padding: 20px;
+                gap: 8px;
+                li{
+                    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+                }
+            }
+        }
+    }
+}
